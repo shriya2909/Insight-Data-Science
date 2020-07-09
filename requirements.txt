@@ -1,5 +1,5 @@
 streamlit
-pdftotext
+PyPDF2
 yake
 langdetect
 iso_language_codes
