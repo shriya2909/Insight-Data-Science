@@ -51,10 +51,9 @@ if uploaded_file is not None:
     st.subheader(translated.text)
     
     for kw in keywords:
-        st.write(kw)
+        st.write(kw[1])
 
-#    th = TextHighlighter(max_ngram_size = 3, highlight_pre = "<span class='my_class' >", highlight_post= "</span>")
-#    st.markdown(th.highlight(txt, keywords),unsafe_allow_html  = True)
+
 
     
 
