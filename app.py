@@ -32,7 +32,7 @@ if uploaded_file is not None:
         pdftxt += pageObj.extractText()
     txt = pdftxt
     st.write("File Upload Successful")
-    st.write(txt)
+  
     lang = detect(txt)
     str1 = "Detected Origin of language : " + ilc.language_name(lang)
     st.write(str1)
