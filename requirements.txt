@@ -4,3 +4,4 @@ yake
 langdetect
 iso_language_codes
 googletrans
+multi-rake
